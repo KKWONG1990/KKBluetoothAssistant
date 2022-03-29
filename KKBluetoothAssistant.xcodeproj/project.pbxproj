@@ -16,14 +16,14 @@
 		120401CA27F301ED009B3C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401C927F301ED009B3C90 /* main.m */; };
 		120401D427F301ED009B3C90 /* KKBluetoothAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401D327F301ED009B3C90 /* KKBluetoothAssistantTests.m */; };
 		120401DF27F301ED009B3C90 /* KKBluetoothAssistantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401DE27F301ED009B3C90 /* KKBluetoothAssistantUITests.m */; };
-		120401F427F30216009B3C90 /* KKBaseBluetoothCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401F127F30216009B3C90 /* KKBaseBluetoothCommand.m */; };
-		120401F527F30216009B3C90 /* KKBluetoothConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401F327F30216009B3C90 /* KKBluetoothConfig.m */; };
-		120401FB27F30225009B3C90 /* KKBHD.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401F927F30225009B3C90 /* KKBHD.m */; };
-		1204020927F30238009B3C90 /* NSString+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 120401FF27F30238009B3C90 /* NSString+BLE.m */; };
-		1204020A27F30238009B3C90 /* NSArray+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204020227F30238009B3C90 /* NSArray+BLE.m */; };
-		1204020B27F30238009B3C90 /* NSNumber+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204020327F30238009B3C90 /* NSNumber+BLE.m */; };
-		1204020C27F30238009B3C90 /* NSDictionary+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204020527F30238009B3C90 /* NSDictionary+BLE.m */; };
-		1204020D27F30238009B3C90 /* NSData+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204020627F30238009B3C90 /* NSData+BLE.m */; };
+		1204024B27F308F2009B3C90 /* NSData+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204023B27F308F1009B3C90 /* NSData+BLE.m */; };
+		1204024C27F308F2009B3C90 /* NSString+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024127F308F1009B3C90 /* NSString+BLE.m */; };
+		1204024D27F308F2009B3C90 /* KKBaseBluetoothCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024227F308F1009B3C90 /* KKBaseBluetoothCommand.m */; };
+		1204024E27F308F2009B3C90 /* KKBluetoothConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024327F308F1009B3C90 /* KKBluetoothConfig.m */; };
+		1204024F27F308F2009B3C90 /* NSArray+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024527F308F1009B3C90 /* NSArray+BLE.m */; };
+		1204025027F308F2009B3C90 /* NSNumber+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024627F308F1009B3C90 /* NSNumber+BLE.m */; };
+		1204025127F308F2009B3C90 /* NSDictionary+BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024827F308F2009B3C90 /* NSDictionary+BLE.m */; };
+		1204025227F308F2009B3C90 /* KKBHD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204024927F308F2009B3C90 /* KKBHD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,22 +62,22 @@
 		120401DA27F301ED009B3C90 /* KKBluetoothAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBluetoothAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		120401DE27F301ED009B3C90 /* KKBluetoothAssistantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBluetoothAssistantUITests.m; sourceTree = "<group>"; };
 		120401E027F301ED009B3C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		120401F027F30216009B3C90 /* KKBaseBluetoothCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKBaseBluetoothCommand.h; path = ../../../KKAppToolKit/KKAppToolKit/KKBaseBluetoothCommand/KKBaseBluetoothCommand.h; sourceTree = "<group>"; };
-		120401F127F30216009B3C90 /* KKBaseBluetoothCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKBaseBluetoothCommand.m; path = ../../../KKAppToolKit/KKAppToolKit/KKBaseBluetoothCommand/KKBaseBluetoothCommand.m; sourceTree = "<group>"; };
-		120401F227F30216009B3C90 /* KKBluetoothConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKBluetoothConfig.h; path = ../../../KKAppToolKit/KKAppToolKit/KKBaseBluetoothCommand/KKBluetoothConfig.h; sourceTree = "<group>"; };
-		120401F327F30216009B3C90 /* KKBluetoothConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKBluetoothConfig.m; path = ../../../KKAppToolKit/KKAppToolKit/KKBaseBluetoothCommand/KKBluetoothConfig.m; sourceTree = "<group>"; };
-		120401F927F30225009B3C90 /* KKBHD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKBHD.m; path = ../../../KKAppToolKit/KKAppToolKit/KKBHD/KKBHD.m; sourceTree = "<group>"; };
-		120401FA27F30225009B3C90 /* KKBHD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKBHD.h; path = ../../../KKAppToolKit/KKAppToolKit/KKBHD/KKBHD.h; sourceTree = "<group>"; };
-		120401FF27F30238009B3C90 /* NSString+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+BLE.m"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSString+BLE.m"; sourceTree = "<group>"; };
-		1204020027F30238009B3C90 /* NSNumber+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+BLE.h"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSNumber+BLE.h"; sourceTree = "<group>"; };
-		1204020127F30238009B3C90 /* NSData+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+BLE.h"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSData+BLE.h"; sourceTree = "<group>"; };
-		1204020227F30238009B3C90 /* NSArray+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BLE.m"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSArray+BLE.m"; sourceTree = "<group>"; };
-		1204020327F30238009B3C90 /* NSNumber+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+BLE.m"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSNumber+BLE.m"; sourceTree = "<group>"; };
-		1204020427F30238009B3C90 /* NSDictionary+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BLE.h"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSDictionary+BLE.h"; sourceTree = "<group>"; };
-		1204020527F30238009B3C90 /* NSDictionary+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BLE.m"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSDictionary+BLE.m"; sourceTree = "<group>"; };
-		1204020627F30238009B3C90 /* NSData+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+BLE.m"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSData+BLE.m"; sourceTree = "<group>"; };
-		1204020727F30238009B3C90 /* NSArray+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+BLE.h"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSArray+BLE.h"; sourceTree = "<group>"; };
-		1204020827F30238009B3C90 /* NSString+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BLE.h"; path = "../../../KKAppToolKit/KKAppToolKit/BluetoothExtension/NSString+BLE.h"; sourceTree = "<group>"; };
+		1204023B27F308F1009B3C90 /* NSData+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BLE.m"; sourceTree = "<group>"; };
+		1204023C27F308F1009B3C90 /* KKBluetoothConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBluetoothConfig.h; sourceTree = "<group>"; };
+		1204023D27F308F1009B3C90 /* NSNumber+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BLE.h"; sourceTree = "<group>"; };
+		1204023E27F308F1009B3C90 /* NSString+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BLE.h"; sourceTree = "<group>"; };
+		1204023F27F308F1009B3C90 /* KKBHD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBHD.h; sourceTree = "<group>"; };
+		1204024027F308F1009B3C90 /* NSData+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BLE.h"; sourceTree = "<group>"; };
+		1204024127F308F1009B3C90 /* NSString+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BLE.m"; sourceTree = "<group>"; };
+		1204024227F308F1009B3C90 /* KKBaseBluetoothCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBaseBluetoothCommand.m; sourceTree = "<group>"; };
+		1204024327F308F1009B3C90 /* KKBluetoothConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBluetoothConfig.m; sourceTree = "<group>"; };
+		1204024427F308F1009B3C90 /* NSDictionary+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BLE.h"; sourceTree = "<group>"; };
+		1204024527F308F1009B3C90 /* NSArray+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BLE.m"; sourceTree = "<group>"; };
+		1204024627F308F1009B3C90 /* NSNumber+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BLE.m"; sourceTree = "<group>"; };
+		1204024727F308F2009B3C90 /* NSArray+BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BLE.h"; sourceTree = "<group>"; };
+		1204024827F308F2009B3C90 /* NSDictionary+BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BLE.m"; sourceTree = "<group>"; };
+		1204024927F308F2009B3C90 /* KKBHD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBHD.m; sourceTree = "<group>"; };
+		1204024A27F308F2009B3C90 /* KKBaseBluetoothCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBaseBluetoothCommand.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,22 +165,22 @@
 		120401EF27F301FB009B3C90 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				120401F027F30216009B3C90 /* KKBaseBluetoothCommand.h */,
-				120401F127F30216009B3C90 /* KKBaseBluetoothCommand.m */,
-				120401F227F30216009B3C90 /* KKBluetoothConfig.h */,
-				120401F327F30216009B3C90 /* KKBluetoothConfig.m */,
-				120401FA27F30225009B3C90 /* KKBHD.h */,
-				120401F927F30225009B3C90 /* KKBHD.m */,
-				1204020727F30238009B3C90 /* NSArray+BLE.h */,
-				1204020227F30238009B3C90 /* NSArray+BLE.m */,
-				1204020127F30238009B3C90 /* NSData+BLE.h */,
-				1204020627F30238009B3C90 /* NSData+BLE.m */,
-				1204020427F30238009B3C90 /* NSDictionary+BLE.h */,
-				1204020527F30238009B3C90 /* NSDictionary+BLE.m */,
-				1204020027F30238009B3C90 /* NSNumber+BLE.h */,
-				1204020327F30238009B3C90 /* NSNumber+BLE.m */,
-				1204020827F30238009B3C90 /* NSString+BLE.h */,
-				120401FF27F30238009B3C90 /* NSString+BLE.m */,
+				1204024A27F308F2009B3C90 /* KKBaseBluetoothCommand.h */,
+				1204024227F308F1009B3C90 /* KKBaseBluetoothCommand.m */,
+				1204023F27F308F1009B3C90 /* KKBHD.h */,
+				1204024927F308F2009B3C90 /* KKBHD.m */,
+				1204023C27F308F1009B3C90 /* KKBluetoothConfig.h */,
+				1204024327F308F1009B3C90 /* KKBluetoothConfig.m */,
+				1204024727F308F2009B3C90 /* NSArray+BLE.h */,
+				1204024527F308F1009B3C90 /* NSArray+BLE.m */,
+				1204024027F308F1009B3C90 /* NSData+BLE.h */,
+				1204023B27F308F1009B3C90 /* NSData+BLE.m */,
+				1204024427F308F1009B3C90 /* NSDictionary+BLE.h */,
+				1204024827F308F2009B3C90 /* NSDictionary+BLE.m */,
+				1204023D27F308F1009B3C90 /* NSNumber+BLE.h */,
+				1204024627F308F1009B3C90 /* NSNumber+BLE.m */,
+				1204023E27F308F1009B3C90 /* NSString+BLE.h */,
+				1204024127F308F1009B3C90 /* NSString+BLE.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -314,18 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1204020A27F30238009B3C90 /* NSArray+BLE.m in Sources */,
-				120401F527F30216009B3C90 /* KKBluetoothConfig.m in Sources */,
-				1204020C27F30238009B3C90 /* NSDictionary+BLE.m in Sources */,
-				120401FB27F30225009B3C90 /* KKBHD.m in Sources */,
-				1204020B27F30238009B3C90 /* NSNumber+BLE.m in Sources */,
+				1204025127F308F2009B3C90 /* NSDictionary+BLE.m in Sources */,
+				1204024E27F308F2009B3C90 /* KKBluetoothConfig.m in Sources */,
+				1204024F27F308F2009B3C90 /* NSArray+BLE.m in Sources */,
+				1204025027F308F2009B3C90 /* NSNumber+BLE.m in Sources */,
+				1204024C27F308F2009B3C90 /* NSString+BLE.m in Sources */,
+				1204025227F308F2009B3C90 /* KKBHD.m in Sources */,
 				120401BF27F301EA009B3C90 /* ViewController.m in Sources */,
+				1204024B27F308F2009B3C90 /* NSData+BLE.m in Sources */,
 				120401B927F301EA009B3C90 /* AppDelegate.m in Sources */,
+				1204024D27F308F2009B3C90 /* KKBaseBluetoothCommand.m in Sources */,
 				120401CA27F301ED009B3C90 /* main.m in Sources */,
-				1204020D27F30238009B3C90 /* NSData+BLE.m in Sources */,
 				120401BC27F301EA009B3C90 /* SceneDelegate.m in Sources */,
-				120401F427F30216009B3C90 /* KKBaseBluetoothCommand.m in Sources */,
-				1204020927F30238009B3C90 /* NSString+BLE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
